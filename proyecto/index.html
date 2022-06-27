@@ -5,16 +5,26 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/css/bootstrap.min.css">
     </head>
+    
+
+    <body>
     <header>
         
-        <h1 class="sombra">Sha-liz</h1>
-        <img src="C:\Users\ricar\Downloads\TIC\3er Cuatrimestre\Aplicaciones Web\cursoweb\proyecto\img\shaliz.jpeg" alt="Sha-liz" width="50px">
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Secciones</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container-fluid">  <!--inicio del div contenedor principal-->
+                 <a class="navbar-brand" href="#">Sha-Liz</a>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class= "collapse navbar-collapse" id="navbarSupportedContent"> <!--contenedor para generar efecto  menu-->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Ofertas</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Secciones</a></li>
+                    </ul>
+                </div> <!--cierre del div efecto menu-->
+
+            </div> <!--cierre del div contenedor principal-->
         </nav>
     </header>
     <hr>
@@ -62,4 +72,6 @@
     </section>
     <hr>
     <footer></footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
